@@ -1,0 +1,14 @@
+{
+    "name": "gmpf/phpxmlrpc-extras-composer-issue",
+    "description": "Demonstration of composer error when trying to install phpxmlrpc/extras",
+    "type": "project",
+    "require": {
+        "phpxmlrpc/extras": "~0.6.1"
+    },
+    "authors": [
+        {
+            "name": "Alex Wuttke",
+            "email": "alw@qbus.de"
+        }
+    ]
+}
