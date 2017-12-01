@@ -3,12 +3,18 @@
     "description": "Demonstration of composer error when trying to install phpxmlrpc/extras",
     "type": "project",
     "require": {
-        "phpxmlrpc/extras": "~0.6.1"
+        "phpxmlrpc/extras": "dev-fix-composer-json-docxmlrpcs"
     },
     "authors": [
         {
             "name": "Alex Wuttke",
             "email": "alw@qbus.de"
         }
-    ]
+    ],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/gmpf/phpxmlrpc-extras.git"
+		}
+	]
 }
